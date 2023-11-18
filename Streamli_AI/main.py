@@ -17,7 +17,7 @@ st.sidebar.title("Dashboard")
 app_mode = st.sidebar.selectbox("Select Page",["Home","About Project","Prediction"])
 
 #Main Page
-if(app_mode=="Home"):
+if(app_mode=="HOME"):
     st.header("FRUITS & VEGETABLES RECOGNITION SYSTEM")
     image_path = "Streamli_AI/home_img.jpg"
     st.image(image_path)
